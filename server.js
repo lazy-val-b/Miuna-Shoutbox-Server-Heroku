@@ -27,8 +27,9 @@ var badwl = {};
 const mongodburl = "mongodb+srv://bow:Szyx4uK8qqbjPNKw@bow-chat-damrv.mongodb.net/test?retryWrites=true";
 
 // initialize db ===============================================================
+mongoose.set('useNewUrlParser', true);
 
-mongoose.connect(mongodburl, { useNewUrlParser: true }); // connect to our database
+mongoose.connect(mongodburl); // connect to our database
 
 // set up our express application
 
