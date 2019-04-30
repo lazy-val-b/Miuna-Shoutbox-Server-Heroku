@@ -28,7 +28,7 @@ const mongodburl = "mongodb+srv://bow:Szyx4uK8qqbjPNKw@bow-chat-damrv.mongodb.ne
 
 // initialize db ===============================================================
 
-mongoose.connect(mongodburl); // connect to our database
+mongoose.connect(mongodburl, { useNewUrlParser: true }); // connect to our database
 
 // set up our express application
 
