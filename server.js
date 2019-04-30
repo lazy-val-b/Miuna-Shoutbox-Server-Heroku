@@ -45,6 +45,8 @@ confdb.findOne({'check': '1'}).exec(function(err, docs){
 	startall();
 });
 
+console.log(port)
+
 function startall() {
 	var corsOptions = {
 	  origin: function(origin, callback){
