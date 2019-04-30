@@ -24,7 +24,7 @@ var uidlist = {};
 var id = {};
 var msgtime = {};
 var badwl = {};
-var mongodburl = process.env.MONGODB_URI;
+const mongodburl = "mongodb+srv://bow:Szyx4uK8qqbjPNKw@bow-chat-damrv.mongodb.net/test?retryWrites=true";
 
 // initialize db ===============================================================
 

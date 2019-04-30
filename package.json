@@ -1,17 +1,17 @@
 {
-  "name": "MiunaShoutboxServer",
-  "version": "9.2.0",
-  "description": "Server of Miuna shoutbox for Mybb",
-  "dependencies" : {
-	"socket.io": "~1.4.8",
-	"express" : "~4.14.0",
-	"ejs" : "~2.5.2",
-	"mongoose" : "~4.6.1",
-	"debug": "~2.2.0",
-	"node-xss": "~0.0.1",
-	"body-parser" : "~1.15.2",
-	"jsonwebtoken" : "~7.1.9",
-	"cors": "~2.8.1",
-	"xtend": "~4.0.1"
-  }
+		"name": "MiunaShoutboxServer",
+		"version": "9.2.0",
+		"description": "Server of Miuna shoutbox for Mybb",
+		"dependencies": {
+				"socket.io": "~1.4.8",
+				"express": "~4.14.0",
+				"ejs": "~2.5.2",
+				"mongoose": "~4.6.1",
+				"debug": "~2.2.0",
+				"node-xss": "~0.0.1",
+				"body-parser": "~1.15.2",
+				"jsonwebtoken": "~7.1.9",
+				"cors": "~2.8.1",
+				"xtend": "~4.0.1"
+		}
 }
