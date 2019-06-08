@@ -213,11 +213,13 @@ function startall() {
 	}
 
 	function showActiveUsers(socket, lstshout){
-		socket.uid = socket.decoded_token.uid;
-		uidlist[socket.uid] = 1;
 		username = socket.decoded_token.user;
-		socket.username = username;
-		usernames[socket.uid] = username;
+		if (username != "") {
+			socket.uid = socket.decoded_token.uid;
+			uidlist[socket.uid] = 1;
+			socket.username = username;
+			usernames[socket.uid] = username;
+		}
 		if (!id[socket.uid]) {
 			id[socket.uid] = {};
 		}
